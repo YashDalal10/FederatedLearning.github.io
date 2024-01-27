@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Federated Rule Learning</title>
+        <style>
+            header.text-align {
+                text-align: center;
+                background-color: gray;
+                color: black;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            h3.text-styling{
+                text-align: justify;
+                color: gray;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+            }
+            h2.text-styling{
+                text-align: justify;
+                color: orange;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                /* padding-top: 20px;
+                padding-right: 20px; */
+                /* padding-bottom: 20px; */
+                padding-left: 20px;
+            }
+            /* header.image-styling{
+                padding-top: 20;
+                padding-right: 20;
+                padding-left: 20;
+                padding-bottom: 20;
+            } */
+        </style>
+    </head>
+    <body style="background-color: black">
+        <header class="text-align">
+            <h1>FEDERATED RULE LEARNING</h1>
+            <h3><u>Thesis implemented by</u>: Yash Dalal</h3>
+            <h3>MSc Artificial Intelligence Engineering</h3>
+            <h3><u>Supervised by</u>: Prof. Dr. Florian Lemmerich</h3>
+            <h3>Professorship for Applied Machine Learning, University of Passau</h3>
+        </header>
+        <h2 class="text-styling">ABSTRACT</h2>
+        <h3 class="text-styling">Federated learning is a machine learning approach that trains local model in every individual distributed servers. The local models are then aggregated to form a single generalized global model. These distributed servers are coordinated by a central server in centralized federated learning. Collaboration between multiple individual servers without a central server is possible in decentralized federated learning. Data is trained locally and does not leave the server which ensures data protection. Rule learning algorithms are logical reasoning based machine learning models that derive rules from training data. However, rule based machine learning approaches have not been implemented in a federated learning framework. This thesis implements RIPPER - a rule based machine learning classifier in both centralized and decentralized federated learning. A new decentralized circular federated learning framework is proposed where every distributed server is connected in a circular manner. The efficiency of federated RIPPER is comparable to that of standard and distributed RIPPER methods. Accuracy and F1 scores of RIPPER in centralized federated and decentralized circular federated learning are similar. Global Prune kfold RIPPER and Standard kfold RIPPER are implemented in this thesis. The addition of local pruning step in Standard kfold RIPPER has greater performance than the Global Prune kfold RIPPER which does not have a local pruning step. RIPPER outputs rulesets that are easily readable. Hence privacy preserving techniques such as differential privacy and random perturbation are applied to mitigate this problem with a slight dip in model performance. This thesis and its findings would help future researchers to implement and test more sophisticated machine learning models in a decentralized circular federated learning framework. This study forms a basis for successfully applying several other rule learning algorithms in a federated setting. This framework provides an alternative that ensures data protection mechanism and has various applications in industrial, professional and academical context.</h3>
+        <!-- <img src="images/cen_dist_servers.PNG" alt="Centralized Federated Learning Architecture" width="600" height="350" class="image-styling" hspace = "20">
+        <img src="images/dec_dist_servers.PNG" alt="Decentralized Federated Learning Architecture" width="600" height="350" class="image-styling" hspace = "125"> -->
+    </body>
+</html>
